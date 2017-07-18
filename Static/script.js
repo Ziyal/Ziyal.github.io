@@ -25,6 +25,15 @@ $(document).ready(function() {
         }, function () {
             $(this).show();
             $(".linkedin-overlay").hide();
+    });  
+
+    $(".resume").hover(
+        function () {
+            $(this).hide();
+            $(".resume-overlay").show();
+        }, function () {
+            $(this).show();
+            $(".resume-overlay").hide();
     });    
 
 });
