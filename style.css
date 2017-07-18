@@ -4,6 +4,10 @@ html {
   margin: 0;
 }
 
+p {
+    Font-Family: 'Droid Serif', Serif;
+    Font-Size: 15px;
+}
 
 body {
     background-color: #e5e5e5;
@@ -13,29 +17,36 @@ body {
 .container {
     width: 80%;
     background-color: white;
-    /*height: 100%;*/
     max-width: 1200px;
     padding: 0px;
 }
 
-
 /* HEADER */
 .header {
-    height: 90px;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 80%;
+    max-width: 1200px;
+    border-bottom: 2px solid grey;
 }
 
 .header-title {
     display: inline-block;
     width: 350px;
-    font-family: 'Crete Round', serif;
+    Font-Family: 'Roboto', Sans-Serif;
     color: #2d2d2d;
     margin-left: 25px;
+    margin-top: 10px;
 }
 
 /* NAVBAR */
 .navbar {
     display: inline-block;
-    width: 400px;
+    width: 350px;
+    text-align: center;
+    margin-top: 17px;
 }
 
 ul {
@@ -47,7 +58,21 @@ ul {
 li {
     display: inline;
     margin: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    Font-Family: 'Roboto', Sans-Serif;
 }
+
+li a {
+    color: #7aaec1;
+}
+
+li a:hover {
+    color:#5e8fa0;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
 
 /* HOME */
 .img-flowers {
@@ -61,7 +86,7 @@ hr {
 }
 
 .body-title {
-    font-family: 'Crete Round', serif;
+   Font-Family: 'Roboto', Sans-Serif;
     color: #2d2d2d;
     text-align: center;
     margin-top: 30px;
@@ -90,4 +115,46 @@ hr {
     text-align: right;
     border-radius: 100%;
     border: solid #8ed18e;
+}
+
+/* PORTFOLIO */
+.portfolio-container {
+    text-align: center;
+}
+
+.project-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+    max-width: 350px;
+    text-align: center;
+    margin: 20px 30px 20px 30px;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.screenshot {
+    width: 100%;
+}
+
+.technologies {
+    color: #7aaec1;
+    font-weight: bold;
+}
+
+/* BASEDECK */
+.basedeck-container {
+    background-color: grey;
+    height: 45px;
+    margin: 0px;
+    text-align: center;
+}
+
+.copyright {
+    Font-Family: 'Roboto', Sans-Serif;
+    padding-top: 13px;
+    color: white;
+    font-size: 12px;
 }

@@ -4,8 +4,11 @@
     <meta charset="utf-8">
     <title>Sereina Blanchard</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Roboto:300" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
+    <script src="Static/script.js"></script> 
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="connect.css"/>
   </head>
   <body>
 
@@ -14,11 +17,12 @@
         <div class="header">
             <h1 class="header-title">Sereina Blanchard</h1>
 
-            <div class="navbar">
+            <div class="navbar pull-right">
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#connect">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -26,13 +30,13 @@
         <div class="img-flowers"></div>
 
 
-        <div class="body-container">
-            <h2 class="body-title">About Me</h2>
+        <div class="body-container" id="about">
+            <h2 class="body-title">About</h2>
             <div class="about-text">
                 <p>After several years selling electronics in the world of retail, I took the skills I learned there, such as working in a fast-paced environment and completing tasks efficiently, and jumped into coding and haven’t looked back. With technologies changing at a rapid rate, there’s always something new and exciting to learn, which is something I love about the industry.</p>
 
-                <p><strong>LANGUAGES:</strong> Python, C#, Javascript, SQL, jQuery, HTML, CSS</p>
-                <p><strong>FRAMEWORKS:</strong> Django, Flask, ASP.NET Core, Angular, Express.js</p>
+                <p><strong>LANGUAGES:</strong> Python, C#, JavaScript, HTML, CSS</p>
+                <p><strong>FRAMEWORKS:</strong> Django, Flask, Vue.js, ASP.NET Core, Angular, Express.js</p>
                 <p><strong>DATABASES:</strong> MySQL, SQLite, PostgreSQL, MongoDB<p>
                 <p><strong>OTHER:</strong> jQuery, Bootstrap, Github<p>
             </div>
@@ -41,16 +45,70 @@
 
         <hr>
 
-        <div class="body-container">
+        <div class="portfolio-container" id="portfolio">
             <h2 class="body-title">Portfolio</h2>
-            <p>Images and what not</p>
+
+            <div class="project-container">
+                <h3 class="project-title">The Movie Log</h3>
+                <img src="images/MovieLog.png" alt="The Movie Log Screenshot" class="screenshot">
+                <p>I'm using The Movie Database API to create a place where users can make lists of movies.</p>
+                <p class="technologies">C# - ASP.NET Core - HTML - CSS - The Movie Database API</p>
+            </div>
+
+            <div class="project-container">
+                <h3 class="project-title">Worf</h3>
+                <img src="images/Worf.png" alt="Worf Screenshot" class="screenshot">
+                <p>First Vue.js project, a personal website for Worf from Star Trek: TNG and DS9.</p>
+                <p class="technologies">JavaScript - Vue.js - HTML - CSS</p>
+            </div>
+
+            <div class="project-container">
+                <h3 class="project-title">Image Upload Tutorial</h3>
+                <img src="images/imageuploader.gif" alt="Image Upload Tutorial Screenshot" class="screenshot">
+                <p>Walking you through step by step to upload photos to your server using ASP.NET Core.</p>
+                <p class="technologies">C# - ASP.NET Core - HTML - CSS</p>
+            </div>
+
+            <div class="project-container">
+                <h3 class="project-title">Gif-land</h3>
+                <img src="images/Gifland.png" alt="Gif-land Screenshot" class="screenshot">
+                <p>Search and favorite your favorite gifs! The search pulls up the top 12 gifs for your query as stills and on hover they begin to animate. Gifs can also be added to favorites.</p>
+                <p class="technologies">JavaScript - Node.js - jQuery - HTML - CSS - Giphy API</p>
+            </div>            
         </div>
 
-        <div class="body-container">
-            <h2 class="body-title">Contact</h2>
+        <hr>
 
-        </div>        
+        <div class="body-container" id="connect">
+            <h2 class="body-title">Connect</h2>
+
+            <div class="icon-container">
+
+                <img src="images/g_email.png" class="email social-icon">
+                <img src="images/c_email.png" class="email-overlay social-icon">
+
+                <a href="http://github.com/Ziyal">
+                    <img src="images/g_github.png" class="github social-icon">
+                    <img src="images/c_github.png" class="github-overlay social-icon">
+                </a>
+
+                <a href="https://www.linkedin.com/in/sereinablanchard/">
+                    <img src="images/g_linkedin.png" class="linkedin social-icon">
+                    <img src="images/c_linkedin.png" class="linkedin-overlay social-icon">
+                </a>
+
+            </div>
+
+        </div>   
+
+        <div class="basedeck-container">
+            <p class="copyright">Design and Code © Sereina Blanchard 2017</p> 
+        </div>    
     </div>
 
   </body>
 </html>
+
+<script type="text/javascript">
+
+</script>
