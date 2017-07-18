@@ -76,7 +76,7 @@ li a:hover {
 
 /* HOME */
 .img-flowers {
-    background-image: url("flowers.JPG");
+    background-image: url("../Images/flowers.JPG");
     height: 350px;
 }
 
