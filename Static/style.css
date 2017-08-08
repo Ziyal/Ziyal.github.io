@@ -44,7 +44,7 @@ body {
 /* NAVBAR */
 .navbar {
     display: inline-block;
-    width: 380px;
+    width: 250px;
     text-align: center;
     margin-top: 17px;
 }
@@ -250,6 +250,18 @@ hr {
 }
 
 @media only screen and (max-width: 750px) {
+    .container {
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .project-container {
+        width: 100%;
+    }
+
     p {
         font-size: 18px;
     }    
