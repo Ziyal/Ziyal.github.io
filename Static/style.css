@@ -21,7 +21,7 @@ body {
     padding: 0px;
 }
 
-/* HEADER */
+/* ----- HEADER ----- */
 .header {
     height: 65px;
     position: fixed;
@@ -41,7 +41,7 @@ body {
     margin-top: 10px;
 }
 
-/* NAVBAR */
+/* ----- NAVBAR ----- */
 .navbar {
     display: inline-block;
     width: 250px;
@@ -74,7 +74,7 @@ li a:hover {
 }
 
 
-/* HOME */
+/* ----- HOME ----- */
 .img-flowers {
     background-image: url("../Images/flowers.JPG");
     height: 350px;
@@ -126,7 +126,7 @@ hr {
     border: solid #8ed18e;
 }
 
-/* PORTFOLIO */
+/* ----- PORTFOLIO ----- */
 .portfolio-container {
     text-align: center;
 }
@@ -169,18 +169,14 @@ hr {
     color: #5e8fa0;
 }
 
-/* SKILLS */
-
-
+/* ----- SKILLS ----- */
 .skills {
     display: inline-block;
     width: 50%;
     max-width: 550px;
-    /*text-align: left;*/
 }
 
-/* CONNECT */
-
+/* ----- CONNECT ----- */
 .icon-container {
     text-align: center;
     margin-bottom: 30px;
@@ -191,24 +187,7 @@ hr {
     margin: 15px;
 }
 
-.email-overlay {
-    display: none;
-}
-
-.github-overlay {
-    display: none;
-}
-
-.linkedin-overlay {
-    display: none;
-}
-
-.resume-overlay {
-    display: none;
-}
-
-
-/* BASEDECK */
+/* ----- BASEDECK ----- */
 .basedeck-container {
     background-color: grey;
     height: 45px;
@@ -234,7 +213,6 @@ hr {
             
     }*/
     
-
     .about-text {
         width: 90%;
         margin: 0 auto;

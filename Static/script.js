@@ -2,49 +2,31 @@ $(document).ready(function() {
 
     $(".email").hover(
         function () {
-            $(this).hide();
-            $(".email-overlay").show();
+            $(this).attr("src", "Images/c_email.png");
         }, function () {
-            $(this).show();
-            $(".email-overlay").hide();
+            $(this).attr("src", "Images/g_email.png");
     });
 
     $(".github").hover(
         function () {
-            $(this).hide();
-            $(".github-overlay").show();
+            $(this).attr("src", "Images/c_github.png");
         }, function () {
-            $(this).show();
-            $(".github-overlay").hide();
+            $(this).attr("src", "Images/g_github.png");
     });
+
 
     $(".linkedin").hover(
         function () {
-            $(this).hide();
-            $(".linkedin-overlay").show();
+            $(this).attr("src", "Images/c_linkedin.png");
         }, function () {
-            $(this).show();
-            $(".linkedin-overlay").hide();
-    });  
-
+            $(this).attr("src", "Images/g_linkedin.png");
+    });
+    
     $(".resume").hover(
         function () {
-            $(this).hide();
-            $(".resume-overlay").show();
+            $(this).attr("src", "Images/c_resume.png");
         }, function () {
-            $(this).show();
-            $(".resume-overlay").hide();
+            $(this).attr("src", "Images/g_resume.png");
     });    
 
 });
-
-
-    // $(".email")
-    // .mouseenter(function() {
-    //     $(this).hide();
-    //     $(".email-overlay").show();
-    // })
-    // .mouseleave(function() {
-    //     $(this).show();
-    //     $(".email-overlay").hide();
-    // })
